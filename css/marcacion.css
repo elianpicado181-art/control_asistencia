@@ -1,0 +1,21 @@
+
+body {
+    min-height: 100vh;
+    background: #f3f6fb;
+}
+
+.navbar {
+    background: #172b4d;
+}
+
+.card {
+    border-radius: 16px;
+}
+
+.form-control {
+    border-radius: 9px;
+}
+
+.btn {
+    border-radius: 9px;
+}

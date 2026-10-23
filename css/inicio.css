@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #243247;
+}
+
+.topbar {
+    background: #172b4d;
+    color: white;
+    padding: 20px;
+}
+
+.topbar h1 {
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+.welcome {
+    max-width: 850px;
+    width: 100%;
+    text-align: center;
+}
+
+.welcome h2 {
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.welcome > p {
+    color: #6b778c;
+    margin-bottom: 35px;
+}
+
+.access-card {
+    background: white;
+    padding: 35px 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 24px rgba(25, 45, 75, .08);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.access-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.access-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.access-card p {
+    color: #6b778c;
+    line-height: 1.6;
+}
+
+.access-btn {
+    display: block;
+    width: 100%;
+    max-width: 260px;
+    margin-top: auto;
+    padding: 12px 18px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.admin-btn {
+    background: #2457a7;
+}
+
+.admin-btn:hover {
+    background: #193f7d;
+    color: white;
+}
+
+.employee-btn {
+    background: #198754;
+}
+
+.employee-btn:hover {
+    background: #146c43;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #7a869a;
+    font-size: 13px;
+}
